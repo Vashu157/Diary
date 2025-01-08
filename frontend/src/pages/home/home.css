@@ -1,0 +1,37 @@
+.home {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-bar {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .left-bar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .left-bar li {
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  
+  .right {
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .day-diary {
+    width: 30%;
+    height: 200px;
+    background-color: #e0e0e0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+  }

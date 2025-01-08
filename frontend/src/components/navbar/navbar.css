@@ -1,21 +1,26 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
 .navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 98%;
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-between;
-}
-.navRight{
-    padding-right: 50px;
-    margin-top: 12px;
-}
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .navLeft .navHead {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .navRight .register {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .navRight .register:hover {
+    background-color: #0056b3;
+  }
