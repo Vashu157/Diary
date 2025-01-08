@@ -1,5 +1,6 @@
 import React from 'react'
 import "./home.css"
+import DayDiary from '../../components/dayDiary/DayDiary'
 const Home = () => {
   return (
     <>
@@ -14,9 +15,9 @@ const Home = () => {
         </ul>
       </div>
       <div className="right">
-        <div className='day-diary'></div>
-        <div className='day-diary'></div>
-        <div className='day-diary'></div>
+        <div className='day-diary'><DayDiary/></div>
+        <div className='day-diary'><DayDiary/></div>
+        <div className='day-diary'><DayDiary/></div>
       </div>
     </div>
     </>
