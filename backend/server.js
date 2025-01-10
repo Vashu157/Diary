@@ -4,6 +4,10 @@ import cors from "cors";
 import { connect } from "http2";
 import diaryRouter from "./routes/diaryRouter.js";
 import userRouter from "./routes/userRouter.js";
+
+import dotenv from "dotenv";
+dotenv.config();
+
 const app = express();
 app.use(cors());
 app.use(express.json()); ///???
