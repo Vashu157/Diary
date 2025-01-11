@@ -6,15 +6,17 @@ import './App.css'
 import Navbar from './components/navbar/Navbar'
 import Home from './pages/home/Home'
 import AddDiary from './pages/addDiary/AddDiary'
+import Register from './pages/register/Register'
 
 function App() {
-
+  const [loggedInUser, setLoggedInUser] = useState(null);
   return (
     <>
           <Navbar/>
           <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/addDiary'element = {<AddDiary/>}/>
+            <Route path='/register' element={<Register/>}/>
           </Routes>
     </>
 

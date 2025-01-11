@@ -1,9 +1,11 @@
-import express from "express";
-import { addDiary, removeDiary } from "../controller/diaryControl.js";
+import express from 'express';
+import { addDiary, removeDiary, getDiary } from '../controller/diaryControl.js';
+import authMiddleware from '../middleware/authMiddleware.js';
 
-const diaryRouter = express.Router();
+const router = express.Router();
 
-diaryRouter.post("/add",addDiary);
-diaryRouter.post("/remove",removeDiary);
+router.post('/add', authMiddleware, addDiary);
+router.post('/remove/:id', authMiddleware, removeDiary);
+router.post('/getDiary', authMiddleware, getDiary);
 
-export default diaryRouter;
+export default router;

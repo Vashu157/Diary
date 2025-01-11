@@ -15,7 +15,7 @@ app.use(express.json()); ///???
 app.get("/",(req,res)=>{
     res.send("hello wrld");
 });
-app.use("/api/addDiary",diaryRouter);
+app.use("/api/diary",diaryRouter);
 app.use("/api/user",userRouter);
 
 

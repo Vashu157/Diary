@@ -1,0 +1,50 @@
+.login-container {
+    width: 350px;
+    height:350px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 23vh;
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input-group input {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+  }
+  
+  .submitBtn {
+    width: 95%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top:20px;
+  }
+  
+  button:hover {
+    background-color: #e4e7e4;
+    color:green;
+   
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 10px;
+  }
